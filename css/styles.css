@@ -597,13 +597,14 @@ button {
     color: #404bbf
 }
 
-.menu-address {}
+.menu-address {
+    margin-bottom: 42px;
+}
 
 .menu-address-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 48px;
 }
 
 .menu-address-list-unit {
@@ -915,6 +916,7 @@ button {
         border-radius: 2px;
     }
 
+
     .address {
         font-style: normal;
         display: block;
@@ -1002,7 +1004,7 @@ button {
     }
 
     .our-portfolio-list-item {
-        flex-basis: calc((100% - 72px) / 2);
+        flex-basis: calc((100% - 24px) / 2);
     }
 
     .footer {
@@ -1175,12 +1177,13 @@ button {
         padding-top: 100px;
         padding-bottom: 100px;
         padding-left: 0;
+        gap: 0;
+        flex-direction: row;
     }
 
 
     .footer .container {
-        align-items: baseline;
-        margin: 0 auto;
+        gap: 0;
     }
 
     .footer-text-wrap {
@@ -1194,6 +1197,10 @@ button {
     .soclink-footer-svg-link:hover,
     .soclink-footer-svg-link:focus {
         background-color: #31D0AA;
+    }
+
+    .subscribe-blok {
+        margin-left: 80px;
     }
 
     .subscribe-form-input {
